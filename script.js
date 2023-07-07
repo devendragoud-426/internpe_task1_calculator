@@ -80,5 +80,8 @@ operator_btns.forEach((btn) => {
         is_operator = true;
         break;
     }
+    if(output.value === "0"){
+      clearBtn.textContent = "AC";
+    }
   });
 });
