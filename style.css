@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #333333;
+  background-image: url(https://th.bing.com/th/id/R.a4bcb27d0589f0dacebeaabae9ccc138?rik=01VUd7%2fVgU%2b0OQ&riu=http%3a%2f%2fcrystalclearmaths.com%2fwp-content%2fuploads%2f2015%2f12%2fMathematical-Symbols.jpg&ehk=ihLzAVpMKN3%2bhtjpaz%2bTkXgzTWCu2rMMVW5GVEmxujk%3d&risl=&pid=ImgRaw&r=0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,10 +75,6 @@ input[type="text"] {
   transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.btn.btn-grow {
-  flex-grow: 1;
-  border-radius: 40px;
-}
 
 .btn:hover {
   transform: translate(-2px, -3px);
@@ -111,5 +107,6 @@ input[type="text"] {
 }
 
 .btn-orange:hover {
-  background-color: orange;
+  background-color: #ffffff;
+  color: #f69906;
 }

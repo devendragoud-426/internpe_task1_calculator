@@ -55,7 +55,7 @@ operator_btns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     remove_active();
     e.currentTarget.classList.add("active");
-
+    remove_active();
     switch (e.target.value) {
       case "%":
         output.value = parseFloat(output.value) / 100;
