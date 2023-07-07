@@ -43,6 +43,12 @@ input[type="text"] {
   padding: 2rem 1rem;
 }
 
+#main h3{
+  color: white;
+  align-self: flex-start;
+  padding-left: 35%;
+}
+
 .calc_header {
   margin-top: 90px;
   padding: 12px;
